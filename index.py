@@ -63,7 +63,7 @@ try:
     from tqdm import tqdm
     import level as lelo
     print("Hello World!")
-    f = File("eleanor.r","w")
-    f.write("This is mins")
+    f = File("file.txt","w")
+    f.write("Hello World! I'm in File Right Now")
 except KeyboardInterrupt:
-    print("Son of Bitch")
+    print("Exitin")
